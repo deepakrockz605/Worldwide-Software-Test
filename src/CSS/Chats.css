@@ -1,0 +1,55 @@
+.chatUser{
+    color: #e01e5a;
+    font-size: 35px;
+    background: #fdf4f7;
+    padding: 3px;
+}
+
+.chatDate{
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.chatDate span {
+    font-size: 14px;
+    color: #797879;
+    border: 1px solid #797879;
+    border-radius: 10px;
+    padding: 2px 15px;
+    background: #fff;
+    z-index: 1;
+}
+
+.chatDate::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #797879;
+    left: 0;
+    z-index: -1;
+    top: 50%;
+}
+
+.chats {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.userMessages {    
+    padding-left: 10px;
+}
+
+.userMessages label{
+    font-weight: bold;
+    font-size: 14px;
+    color: #352227;
+}
+
+.userMessages p {
+    font-size: 14px;
+    color: #777676;
+}

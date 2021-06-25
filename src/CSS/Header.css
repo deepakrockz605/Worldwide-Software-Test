@@ -1,0 +1,47 @@
+.headerWrapper {
+    background: #350d36;
+    color: #c4b8c4;
+    display: flex;
+    padding: 10px;
+}
+
+.headerWrapper .statusIcon {
+    max-width: 25%;
+    width: 100%;
+    display: block;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.searchContainer {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.searchContainer form{
+    max-width: 400px;
+    width: 100%;
+    background: #431e44;
+    display: flex;
+    border: 1px solid #543254;
+    font-size: 14px;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    padding: 0 6px;
+}
+
+.searchContainer form div {
+    position: absolute;
+    right: 10px;
+}
+
+.searchContainer form input[type="text"]{ 
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.searchContainer form input[type="text"]:focus {
+    box-shadow: none;
+}

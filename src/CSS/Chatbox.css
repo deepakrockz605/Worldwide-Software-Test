@@ -1,0 +1,23 @@
+.chatboxWrapper{
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    max-width: 25%;
+    width: 100%;
+    min-height: calc(100vh - 44px);
+    background: #3f0e40;
+    color: #c4b8c4;
+}
+
+.chatbox {
+    max-width: 75%;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+}
+
+.chatbox textarea {
+    width: 100%;
+}
